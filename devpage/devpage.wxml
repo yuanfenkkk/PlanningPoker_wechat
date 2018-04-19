@@ -1,0 +1,11 @@
+<!--Dev page/devpage.wxml-->
+<view style="text-align:center">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="default ">3</view>
+    <view class="default ">5</view>
+    <view class="default ">7</view>
+    <view class="default ">12</view>
+  </view>
+
+  <button type="primary" size="{{primarySize}}">Vote</button>
+</view>

@@ -1,0 +1,9 @@
+<!--SM page/smpage.wxml-->
+<view style="text-align:center">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="default ">JIRA Id:</view>
+    <input class="textarea " placeholder="please input here"> </input>
+  </view>
+
+  <button type="primary" size="{{primarySize}}">Create</button>
+</view>

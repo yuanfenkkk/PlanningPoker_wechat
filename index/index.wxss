@@ -1,0 +1,34 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+
+.sm_box{
+	height: 150px;
+	width: 100%;
+	border: 1px solid orange;
+	border-radius: 5px;
+	background: orange;
+	/*center text*/
+	text-align: center;
+	vertical-align: middle;
+	line-height: 150px;
+	/*text color*/
+	color:white;
+	font-size: 2rem;
+}
+
+.dv_box{
+	height: 150px;
+	width: 100%;
+	border: 1px solid blue;
+	border-radius: 5px;
+	background: blue;
+	/*center text*/
+	text-align: center;
+	vertical-align: middle;
+	line-height: 150px;
+	/*text color*/
+	color:white;
+	font-size: 2rem;
+}
