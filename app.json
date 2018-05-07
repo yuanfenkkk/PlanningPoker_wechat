@@ -2,12 +2,14 @@
   "pages":[
     "index/index",
     "smpage/smpage",
-    "devpage/devpage"
+    "devpage/devpage",
+    "smvote/smvote",
+    "event/event"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Poker",
     "navigationBarTextStyle":"black"
   }
 }

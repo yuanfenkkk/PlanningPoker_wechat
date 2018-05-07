@@ -1,5 +1,4 @@
-// SM page/smpage.js
-
+ 
 
 Page({
 
@@ -33,38 +32,11 @@ Page({
     var that = this;
     var sTaskID = "";
     var planevent = [];
-    var smaster = getApp().globalData.usrId;
-    var id_existed = that.checkSmId(smaster);
-   // if (id_existed = True &&
-    
-    var task_name = {};
-    task_name = getApp().globalData.taskId;
-    sTaskID = task_name;
-    if (sTaskID != '') {
-    planevent.push('1');
 
-    //task_name  = e.detail.value.TaskID;
-    wx.request({
-      url: 'http://www.angnote.club/api/tasks/',
-      method: 'POST',
-      data: {
-        name: smaster,
-        planningevents: planevent,
-        scrummaster: smaster
-      },
-      header: {
-        'content-type': 'application/json'
-      },
-      success: function (res) {
-        console.log(res.data)
-      }
-    });
-    
-
-    wx.navigateTo({
-      url: "/smvote/smvote"
-    });
-    }
+      wx.navigateTo({
+        url: "/smpage/smpage"
+      });
+     
   },
 
 

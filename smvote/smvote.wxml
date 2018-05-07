@@ -1,0 +1,13 @@
+<view style="text-align:left">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view style='height:80px;display:flex'>Waiting for developers to vote...</view>
+    <view class="flex-wrp" style="flex-direction:column;">  
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    
+    </view>
+
+  </view>
+  <button type="primary" bindtap='' size='mini'>STOP&AVG</button>
+  <button type='primary' size='mini' bindtap='back_top'>New trip</button>
+</view>
