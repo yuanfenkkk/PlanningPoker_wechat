@@ -1,8 +1,12 @@
 <!--SM page/smpage.wxml-->
 <view style="text-align:left">
-  <view class="" style="flex-direction:row;">
-    <view style='display:block;'><label style='display:inline;'>JIRA Id:</label>
-    <input confirm-type='done' style='background:#e5e5e5;width:50%;display:inline;' bindblur='set_input' type='text' name='TaskID' placeholder="Input Task Id..."> </input></view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class='flex-item' style='display:block;'>
+      <label style='display:inline;'>JIRA Id:</label>
+    </view>
+    <view class='flex-item'>
+      <input confirm-type='done' style='background:#e5e5e5;width:50%;display:inline;' bindblur='set_input' type='text' name='TaskID' placeholder="Input Task Id..."> </input>
+    </view>
   </view>
   <button type="primary" hover-class='weui-search-bar__cancel-btn' size='mini' bindtap="create_task">Create</button>
 </view>
